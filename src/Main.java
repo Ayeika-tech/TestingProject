@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
-public class Main {
+public class Main 
+{
     public static void main(String[] args) {
         Neighbors n = new Neighbors("Mary", "Thomas", "469-579-6649","14139 fall harvest Dr");
         Neighbors n1 = new Neighbors("Luis","Jimenez", "214-697-8224", "14114 Fall Harvest Dr");
@@ -23,16 +24,13 @@ public class Main {
         myList.add(n6);
         myList.add(n7);
         myList.add(n8);
-        myList.add(n9);
-      
+        myList.add(n9);      
 
         for (Neighbors data : myList) {
             System.out.println("Name: "+ data.getName()+" "+data.getLast());
             System.out.println("Phone#: "+ data.getNumber());
             System.out.println("Address: "+data.getAddress());
             System.out.println("-----------------------------");
-        }
-
-        
+        }        
     }
 }
